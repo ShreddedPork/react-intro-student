@@ -5,7 +5,6 @@ import './index.css';
 
 const initBoard = new Array(9)
   .fill(null)
-
   .map((_, idx) => ({ id: `square-${idx}`, move: null }));
 
 const initState = {
