@@ -57,6 +57,7 @@ class App extends Component {
   playAgain() {
     this.setState({ ...initState });
   }
+
   render() {
     return (
       <Fragment>
