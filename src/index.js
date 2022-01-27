@@ -21,5 +21,5 @@ function App() {
     </div>
   );
 }
-
+// a comment
 ReactDOM.render(<App />, document.getElementById('root'));
