@@ -32,7 +32,7 @@ npm i react react-dom styled-components css-loader style-loader file-loader
 npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader babel-plugin-styled-components html-webpack-plugin webpack webpack-cli webpack-dev-server @babel/plugin-transform-runtime
 
 # add .gitignore
-printf ".DS_Store\nnode_modules" > .gitignore
+printf ".DS_Store\nnode_modules\ndist" > .gitignore
 
 # stage all and confirm
 git status && git add . && git status
